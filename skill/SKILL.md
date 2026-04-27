@@ -23,7 +23,6 @@ docker exec <container> hy-smi <options>
 
 | 查看时钟频率 | `hy-smi -c -g --showclkfrq` |
 | 查看正在运行的进程 | `hy-smi --showpids` |
-| JSON格式输出 | `hy-smi -a --json` |
 
 
 ## 选项分类
