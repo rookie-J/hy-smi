@@ -51,13 +51,10 @@ hy-smi -u --showhcuutil --showcuutil
 hy-smi --showmemuse --showmemavailable
 
 # 查看时钟频率
-hy-smi -c -g --sclk --showclkfrq
+hy-smi -c -g --showclkfrq
 
 # 查看正在运行的进程
 hy-smi --showpids
-
-# JSON格式输出
-hy-smi -a --json
 ```
 
 ### 容器中使用
@@ -93,9 +90,8 @@ HCU     Temp     AvgPwr     Perf     PwrCap     VRAM%      HCU%      Dec%      E
 | 查看温度/功耗 | `hy-smi -t -P` |
 | 查看利用率 | `hy-smi -u --showhcuutil --showcuutil` |
 | 查看内存使用 | `hy-smi --showmemuse --showmemavailable` |
-| 查看时钟频率 | `hy-smi -c -g --sclk --showclkfrq` |
+| 查看时钟频率 | `hy-smi -c -g --showclkfrq` |
 | 查看正在运行的进程 | `hy-smi --showpids` |
-| JSON格式输出 | `hy-smi -a --json` |
 
 ## 错误排查
 
