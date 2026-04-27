@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# Downloaded content
+*.pdf
+*.zip
+*.tar.gz
