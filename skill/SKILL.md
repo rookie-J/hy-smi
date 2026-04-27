@@ -21,7 +21,7 @@ docker exec <container> hy-smi <options>
 | 查看利用率 | `hy-smi -u --showhcuutil --showcuutil` |
 | 查看内存使用 | `hy-smi --showmemuse --showmemavailable` |
 
-| 查看时钟频率 | `hy-smi -c -g --sclk --showclkfrq` |
+| 查看时钟频率 | `hy-smi -c -g --showclkfrq` |
 | 查看正在运行的进程 | `hy-smi --showpids` |
 | JSON格式输出 | `hy-smi -a --json` |
 
